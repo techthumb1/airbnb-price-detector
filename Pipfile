@@ -4,8 +4,20 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+fastapi = "*"
+uvicorn = "*"
+plotly = "*"
+keras = "*"
+category-encoders = "*"
+tensorflow = "*"
+autopep8 = "*"
 
 [dev-packages]
+flake8 = "*"
+jupyter = "*"
+pep8-naming = "*"
+pytest = "*"
+requests = "*"
 
 [requires]
 python_version = "3.8"
